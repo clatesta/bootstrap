@@ -28,6 +28,15 @@ function dev(){
     pip install --upgrade virtualenv
 }
 
+function crossftp() {
+    echo" Install CrossFTP"
+    sudo apt-get update
+    sudo apt-get install default-jre
+
+    wget -O /tmp/crossftp.deb http://www.crossftp.com/crossftp_1.98.8.deb
+    sudo dpkg -i /tmp/crossftp.deb
+}
+
 function awscli(){
     echo "Install awscli"
     pip install awscli --upgrade --user

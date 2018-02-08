@@ -130,6 +130,8 @@ function xbindkeys() {
     ### b:9
 }
 
+# TODO: alias file
+#alias llt='ls -lt --time-style=full-iso'
 
 #-------------
 # WHAT TO RUN

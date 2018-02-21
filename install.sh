@@ -89,6 +89,9 @@ function postman(){
     wget https://dl.pstmn.io/download/latest/linux64 -O postman.tar.gz
     sudo tar -xzf postman.tar.gz -C /opt
     rm postman.tar.gz
+    if [ -f /usr/bin/postman ]; then
+        sudo rm /usr/bin/postman;
+    fi
     sudo ln -s /opt/Postman/Postman /usr/bin/postman
 }
 

@@ -140,4 +140,5 @@ function xbindkeys() {
 # WHAT TO RUN
 #-------------
 
-upgrade
+postman
+#upgrade

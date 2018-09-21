@@ -1,0 +1,21 @@
+# Pre-requisites
+
+	sudo apt-get install gnome-tweak-tool
+	sudo apt-get install gnome-shell-extensions
+
+# Theme
+
+Remix Flat: https://github.com/daniruiz/flat-remix-gnome
+Install:
+	sudo add-apt-repository ppa:daniruiz/flat-remix
+	sudo apt-get update
+	sudo apt-get install flat-remix-gnome
+
+# Icons
+
+Remix Flat icons: https://github.com/daniruiz/Flat-Remix/
+Install:
+	sudo add-apt-repository ppa:daniruiz/flat-remix
+	sudo apt-get update
+	sudo apt-get install flat-remix
+
